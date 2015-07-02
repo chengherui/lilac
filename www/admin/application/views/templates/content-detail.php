@@ -66,6 +66,11 @@
                   <tbody>
                     <tr>
                       <td>备注</td>
+                      <td><?php if($comment!=null) echo $comment->description; ?></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td></td>
                       <td><?php if($comment!=null) echo ("<a target='_blank' href='" . $comment->commentimgs. "'>" . $comment->commentimgs. "</a>") ?></td>
                       <td><?php if($comment!=null) echo ($comment->commentimgsinfo) ?></td>
                     </tr>
@@ -103,6 +108,11 @@
                   <tbody>
                     <tr>
                       <td>其它抵押</td>
+                      <td><?php if($other!=null) echo $other->description ?></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td></td>
                       <td><?php if($other!=null) echo ("<a target='_blank' href='" . $other->otherimgs . "'>" . $other->otherimgs . "</a>") ?></td>
                       <td><?php if($other!=null) echo ($other->otherimgsinfo) ?></td>
                     </tr>

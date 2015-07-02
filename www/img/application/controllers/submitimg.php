@@ -35,11 +35,9 @@ class Submitimg extends CI_Controller {
         if(isset($_SERVER['HTTP_REMARK'])) {
             $remark =urldecode($_SERVER['HTTP_REMARK']);
         }
-	echo $remark;
 
         $this->load->database('default');
         $sql = "insert into " . $type . " (`id`,`" . $detail . "`,`" . $detail . "info`) values ('" . $id . "','" . $url . "','" . $remark . "') ON DUPLICATE KEY UPDATE " . $detail . "='" . $url . "'," . $detail . "info='" . $remark . "'";
-	echo $sql;
         $this->db->query($sql);
         if($type == "comments") {
             $sql = "update orders set status=1 where id='" . $id . "'"; 
