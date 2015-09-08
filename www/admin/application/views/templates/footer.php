@@ -1,6 +1,6 @@
     <hr>
     <footer>
-        <p>中国金融创新资本服务公司 2015</p>
+        <p>新华普信（北京）资产管理有限公司</p>
     </footer>
     <script src="/admin/static/js/jquery.js"></script>
     <script src="/admin/static/js/lilac.js"></script>

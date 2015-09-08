@@ -1,7 +1,7 @@
 <div class="navbar navbar-inverse navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container-fluid">
-      <a class="brand">中国金融创新资本服务公司后台</a>
+      <a class="brand">新华普信（北京）资产管理有限公司</a>
       <div class="nav-collapse collapse">
         <ul class="nav">
           <li class="active"><a href="/admin/">主页</a></li>

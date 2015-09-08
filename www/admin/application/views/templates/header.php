@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>中国金融创新资本服务公司</title>
+    <title>新华普信（北京）资产管理有限公司</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="mudeng">
     <!-- Bootstrap -->
